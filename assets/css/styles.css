@@ -558,13 +558,3 @@ initially starting from 0*/
         width: 0;
     }
 }
-
-.slide-down {
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease;
-  }
-  
-  .slide-down.active {
-    height: 200px; /* Adjust the desired height */
-  }
